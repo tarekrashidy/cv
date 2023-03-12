@@ -62,7 +62,7 @@ export default function Certificate() {
                 {Certificates.map((Certificate, index) => {
                     return (
                     
-                        <SwiperSlide>
+                        <SwiperSlide key={index}>
                         <img src={Certificate} />
                         </SwiperSlide>
                     

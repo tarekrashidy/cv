@@ -79,14 +79,14 @@ export default function Projects() {
 
                 {projects.map((project, index) => {
                     return (
-                        <SwiperSlide className='shadow-2xl  ' key={project.id}
+                        <SwiperSlide className='shadow-2xl   ' key={project.id}
                             style={{
-                                "backgroundImage": `url(${project.img})`, "background-repeat": "no-repeat",
-                                "background-size": "cover",
-                                "background-position": " center",
+                                "backgroundImage": `url(${project.img})`, "backgroundRepeat": "no-repeat",
+                                "backgroundSize": "cover",
+                                "backgroundPosition": " center",
                             }}
                         >
-                            <div className="backdrop-blur-sm">
+                            <div className="backdrop-blur-sm transition duration-300 ease-in-out opacity-0 hover:opacity-100   bg-custom ">
                                 <h2 className="text-3xl text-center font-bold text-transparent text-black drop-shadow-lg shadow-black p-2">
 
                                     {project.name}
@@ -99,13 +99,13 @@ export default function Projects() {
                            
                                         to={`/details/${project.name}`}
                                     >
-                                        <button class="btn  border-0 bg-gradient-to-r from-gray-700  to-gray-500 m-1 rounded-full ">GitHub</button>
+                                        <button className="btn  border-0 bg-gradient-to-r from-gray-700  to-gray-500 m-1 rounded-full ">GitHub</button>
                                     </Link>
                                     <Link
                            
                                         to={`/details/${project.name}`}
                                     >
-                                        <button class="btn  border-0 bg-gradient-to-r from-sky-700  to-sky-500 m-1 rounded-full ">Live</button>
+                                        <button className="btn  border-0 bg-gradient-to-r from-sky-700  to-sky-500 m-1 rounded-full ">Live</button>
                                     </Link>
                                  
 

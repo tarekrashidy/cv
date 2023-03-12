@@ -33,8 +33,8 @@ const Skills = () => {
 
       <div className="flex w-full flex-col justify-center lg:flex-row">
         <div className=" card rounded-box flex  basis-1/2 place-items-center text-center">
-          <div className="parent flex">
-            <div className="parent">
+        
+            <div className="parent  ">
               <Fade elay={2e3} cascade damping={2e-3} direction="left" triggerOnce >
                 <div className="div1 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
@@ -221,11 +221,11 @@ const Skills = () => {
               </Fade>
 
             </div>
-          </div>
+        
         </div>
 
         <div className=" card rounded-box flex  basis-1/2 place-items-center text-center">
-          <div className="parent flex">
+       
             <div className="parent">
              
         
@@ -422,7 +422,7 @@ const Skills = () => {
 
               </Fade>
             </div>
-          </div>
+     
         </div>
       </div>
     </div>

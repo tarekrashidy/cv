@@ -1,12 +1,11 @@
 import React,{useEffect,useState} from 'react'
 
-import Slider from '../slider/Slider'
 import Hero from '../hero/Hero'
 import Projects from '../projects/Projects'
 import Certificate from '../certificate/Certificate'
 import useFetch from '../../../useFetch'
-import Trend from '../trend/Trend'
 import Skills from '../skills/Skills'
+import Contacts from '../contacts/Contacts'
 
 
 const Home = () => {
@@ -19,6 +18,7 @@ const Home = () => {
         <Skills/>
         <Projects />
         <Certificate />
+         <Contacts />
 
        </>
 

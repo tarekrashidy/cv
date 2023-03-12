@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 // import '../styles/hero.css'
 import { Fade, Slide } from "react-awesome-reveal";
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const [theme, setTheme] = useState("light");
@@ -22,7 +23,7 @@ const Hero = () => {
           viewBox="0 0 1440 320"
           preserveAspectRatio="none"
           className="svg absolute hidden lg:block"
-          style={{ "height": "560px", width: "100%", "z-index": "-10", "overflow": "hidden" }}
+          style={{ "height": "560px", width: "100%", "zIndex": "-10", "overflow": "hidden" }}
         >
           <defs>
             <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
@@ -37,7 +38,7 @@ const Hero = () => {
         </svg>
 
 
-        <div className="px-6 pt-16 pb-10 lg:mb-12 md:px-12 text-center lg:text-left">
+        <div className="px-6 pt-20 pb-10 lg:mb-12 md:px-12 text-center lg:text-left">
           <div className="container mx-auto xl:px-28">
             <div className="grid lg:grid-cols-2 gap-12 flex items-center py-12">
               <div className="mt-12 lg:mt-0">
@@ -68,10 +69,15 @@ const Hero = () => {
 
 
 
+                  <Link to="/files/cv.pdf" target="_blank" download>
+                  
     <button  className="btn  border-0 bg-gradient-to-r from-sky-700 to-sky-500 m-4">
-    
-    
+                  
+                  
+                  
     Get CV</button>
+                  </Link>
+    
 
 
 
