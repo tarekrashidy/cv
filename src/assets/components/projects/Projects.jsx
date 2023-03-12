@@ -13,20 +13,14 @@ export default function Projects() {
          { img: "/images/projects/img2.png", name: "name", gitsrc: "s", livesrc: "s", id: "2" }, 
          { img: "/images/projects/img3.png", name: "name", gitsrc: "s", livesrc: "s", id: "3" }, 
          { img: "/images/projects/img4.png", name: "name", gitsrc: "s", livesrc: "s", id: "4" }, 
-         { img: "/images/projects/img5.png", name: "name", gitsrc: "s", livesrc: "s", id: "5" },
-         { img: "/images/projects/img6.png", name: "name", gitsrc: "s", livesrc: "s", id: "6" }, 
+         { img: "/images/projects/img5.png", name: "name", gitsrc: "s", livesrc: "s", id: "5" }, 
          { img: "/images/projects/img7.png", name: "name", gitsrc: "s", livesrc: "s", id: "7" },
-         { img: "/images/projects/img8.png", name: "name", gitsrc: "s", livesrc: "s", id: "8" }, 
-         { img: "/images/projects/img9.png", name: "name", gitsrc: "s", livesrc: "s", id: "9" },
          { img: "/images/projects/img10.png", name: "name", gitsrc: "s", livesrc: "s", id: "10" }, 
-         { img: "/images/projects/img11.png", name: "name", gitsrc: "s", livesrc: "s", id: "11" },
          { img: "/images/projects/img12.png", name: "name", gitsrc: "s", livesrc: "s", id: "12" }, 
          { img: "/images/projects/img13.png", name: "name", gitsrc: "s", livesrc: "s", id: "13" },
          { img: "/images/projects/img14.png", name: "name", gitsrc: "s", livesrc: "s", id: "14" }, 
          { img: "/images/projects/img15.png", name: "name", gitsrc: "s", livesrc: "s", id: "15" },
-         { img: "/images/projects/img16.png", name: "name", gitsrc: "s", livesrc: "s", id: "16" }, 
          { img: "/images/projects/img17.png", name: "name", gitsrc: "s", livesrc: "s", id: "17" },
-         { img: "/images/projects/img18.png", name: "name", gitsrc: "s", livesrc: "s", id: "18" }, 
          { img: "/images/projects/img19.png", name: "name", gitsrc: "s", livesrc: "s", id: "19" },
          { img: "/images/projects/img20.png", name: "name", gitsrc: "s", livesrc: "s", id: "20" }, 
          { img: "/images/projects/img21.png", name: "name", gitsrc: "s", livesrc: "s", id: "21" },
@@ -49,13 +43,12 @@ export default function Projects() {
          { img: "/images/projects/img38.png", name: "name", gitsrc: "s", livesrc: "s", id: "38" },
          { img: "/images/projects/img39.png", name: "name", gitsrc: "s", livesrc: "s", id: "39" },
          { img: "/images/projects/img40.png", name: "name", gitsrc: "s", livesrc: "s", id: "40" },
-         { img: "/images/projects/img41.png", name: "name", gitsrc: "s", livesrc: "s", id: "41" },
          { img: "/images/projects/img42.png", name: "name", gitsrc: "s", livesrc: "s", id: "42" },
         ]
 
     return (
         <>
-            <h1 className='text-center py-3 font-extrabold text-transparent text-7xl bg-clip-text bg-gradient-to-r from-red-800 to-red-500'>Most Popular Movies</h1>
+            <h1 className='   mx-auto py-12 text-center text-6xl font-bold'>Projects</h1>
 
 
             <Swiper
@@ -93,34 +86,52 @@ export default function Projects() {
                                 "background-position": " center",
                             }}
                         >
-                            <div className="">
-                                <h2 className="text-center font-bold text-transparent text-l text-red-600">  {project.name}</h2>
+                            <div className="backdrop-blur-sm">
+                                <h2 className="text-3xl text-center font-bold text-transparent text-black drop-shadow-lg shadow-black p-2">
+
+                                    {project.name}
+                                </h2>
                                 <div
                                     className=" flex items-center
-                                           justify-center"
+    justify-center"
                                 >
-
-                        <Link className='show_details' to={project.gitsrc}><button className="btn bg-red-600 border-0  btn-circle"
-
+                                    <Link
+                           
+                                        to={`/details/${project.name}`}
                                     >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            viewBox="0 0 24 24"
-                                            fill="currentColor"
-                                            className="h-6 w-6"
-                                        >
-                                            <path
-                                                fillRule="evenodd"
-                                                d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm14.024-.983a1.125 1.125 0 010 1.966l-5.603 3.113A1.125 1.125 0 019 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113z"
-                                                clipRule="evenodd"
-                                            />
-                                        </svg>
-                                    </button></Link>
-
-
+                                        <button class="btn  border-0 bg-gradient-to-r from-gray-700  to-gray-500 m-1 rounded-full ">GitHub</button>
+                                    </Link>
+                                    <Link
+                           
+                                        to={`/details/${project.name}`}
+                                    >
+                                        <button class="btn  border-0 bg-gradient-to-r from-sky-700  to-sky-500 m-1 rounded-full ">Live</button>
+                                    </Link>
+                                 
 
                                 </div>
+                              
                             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                         </SwiperSlide>
                     );
                 })}

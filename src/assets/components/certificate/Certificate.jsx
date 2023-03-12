@@ -14,8 +14,35 @@ import "swiper/css/pagination";
 import { EffectCoverflow, Pagination } from "swiper";
 
 export default function Certificate() {
+    const Certificates = [
+        ' /images/cert/cert(17).png',
+         '/images/cert/cert(2).png',
+         '/images/cert/cert(3).png',
+         '/images/cert/cert(4).png',
+         '/images/cert/cert(5).png',
+         '/images/cert/cert(6).png',
+         '/images/cert/cert(7).png',
+         '/images/cert/cert(8).png',
+         '/images/cert/cert(9).png',
+         '/images/cert/cert(10).png',
+         '/images/cert/cert(11).png',
+         '/images/cert/cert(12).png',
+         '/images/cert/cert(13).png',
+         '/images/cert/cert(14).png',
+         '/images/cert/cert(15).png',
+         '/images/cert/cert(16).png',
+         '/images/cert/cert(1).png',
+         '/images/cert/cert(18).png',
+         '/images/cert/cert(19).png',
+         '/images/cert/cert(20).png',
+         '/images/cert/certp1.jpg',
+         '/images/cert/certp2.jpg',
+         '/images/cert/certp3.jpg',
+
+    ]
     return (
         <>
+            <h1 className='   mx-auto pt-12 text-center text-6xl font-bold'>Certificates</h1>
             <Swiper
                 effect={"coverflow"}
                 grabCursor={true}
@@ -30,35 +57,21 @@ export default function Certificate() {
                 }}
                 pagination={true}
                 modules={[EffectCoverflow, Pagination]}
-                className="mySwiper"
+                className="mySwiper pt-0"
             >
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-                </SwiperSlide>
-                <SwiperSlide>
-                    <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-                </SwiperSlide>
+                {Certificates.map((Certificate, index) => {
+                    return (
+                    
+                        <SwiperSlide>
+                        <img src={Certificate} />
+                        </SwiperSlide>
+                    
+                    
+             
+                    
+                    
+                    )})}
+   
             </Swiper>
         </>
     );
