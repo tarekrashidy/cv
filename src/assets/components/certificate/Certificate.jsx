@@ -38,6 +38,7 @@ export default function Certificate() {
          '/images/cert/certp1.jpg',
          '/images/cert/certp2.jpg',
          '/images/cert/certp3.jpg',
+         '/images/cert/certp4.png',
 
     ]
     return (
