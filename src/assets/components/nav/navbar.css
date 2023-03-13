@@ -3,3 +3,22 @@
      position: fixed;
           z-index: 1000;
 }
+@media only screen and (max-width: 400px) {
+     .navbar_items {
+
+         display: none !important;
+
+
+     }
+
+}
+
+@media only screen and (max-width: 600px) {
+.navbar_items {
+
+          display: none !important;
+
+
+     }
+
+}

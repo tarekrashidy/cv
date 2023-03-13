@@ -154,3 +154,25 @@ body {
      display: block;
      width: 100%;
  }
+
+ @media only screen and (max-width: 400px) {
+     .parent {
+
+         grid-column-gap: 1.5rem;
+         grid-row-gap: 1.125rem;
+
+
+     }
+
+ }
+
+ @media only screen and (max-width: 600px) {
+     .parent {
+
+         grid-column-gap: 1.5rem;
+         grid-row-gap: 1.125rem;
+
+
+     }
+
+ }

@@ -1,10 +1,9 @@
 .mySwiper {
     width: 100%;
     padding-bottom: 50px;
-    padding-top: 0 !important;
 }
 
-.swiper-slide {
+.mySwiper .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 450px !important;
@@ -22,4 +21,21 @@
     -moz-transform: translate3d(0,0,0);
     -ms-transform: translate3d(0,0,0);
     -o-transform: translate3d(0,0,0);
+}
+@media only screen and (max-width: 400px) {
+    .mySwiper.swiper-slide {
+
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+.mySwiper .swiper-slide {
+
+        width: 300px !important;
+        height: 300px !important;
+    }
+
 }

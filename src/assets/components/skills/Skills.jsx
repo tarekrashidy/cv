@@ -29,7 +29,7 @@ import node from "../../../../public/images/skills/node.jpg";
 const Skills = () => {
   return (
     <div className="px-10">
-      <h1 className="mx-auto py-10 text-center text-6xl font-bold">Skills</h1>
+      <h1 className="mx-auto py-10 text-center text-4xl sm:text-4xl   xs:text-4xl md:text-6xl lg:text-6xl xl:text-6xl font-bold">Skills</h1>
 
       <div className="flex w-full flex-col justify-center lg:flex-row">
         <div className=" card rounded-box flex  basis-1/2 place-items-center text-center">
@@ -38,7 +38,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="left" triggerOnce >
                 <div className="div1 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24  rounded-xl">
                       <img
                         src={css}
                         alt="Shoes"
@@ -53,7 +53,7 @@ const Skills = () => {
 
                 <div className="div2 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={html}
                         alt="Shoes"
@@ -67,7 +67,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="left" triggerOnce>
                 <div className="div3 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={Gulp}
                         alt="Shoes"
@@ -84,7 +84,7 @@ const Skills = () => {
 
                 <div className="div4 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={sass}
                         alt="Shoes"
@@ -100,7 +100,7 @@ const Skills = () => {
               
               <div className="div5 card  rounded-xl bg-base-100 shadow-xl">
                 <div className="avatar">
-                  <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                     <img
                       src={Photoshop}
                       alt="Shoes"
@@ -118,7 +118,7 @@ const Skills = () => {
 
               <div className="div6 card  rounded-xl bg-base-100 shadow-xl">
                 <div className="avatar">
-                  <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                     <img
                       src={XD}
                       alt="Shoes"
@@ -136,7 +136,7 @@ const Skills = () => {
 
               <div className="div7 card  rounded-xl bg-base-100 shadow-xl">
                 <div className="avatar">
-                  <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                     <img
                       src={Bootstrap}
                       alt="Shoes"
@@ -154,7 +154,7 @@ const Skills = () => {
 
               <div className="div8 card  rounded-xl bg-base-100 shadow-xl">
                 <div className="avatar">
-                  <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                     <img
                       src={firebase}
                       alt="Shoes"
@@ -172,7 +172,7 @@ const Skills = () => {
 
               <div className="div9 card  rounded-xl bg-base-100 shadow-xl">
                 <div className="avatar">
-                  <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                     <img
                       src={Git}
                       alt="Shoes"
@@ -190,7 +190,7 @@ const Skills = () => {
 
               <div className="div10 card  rounded-xl bg-base-100 shadow-xl">
                 <div className="avatar">
-                  <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                     <img
                       src={JavaScript}
                       alt="Shoes"
@@ -206,7 +206,7 @@ const Skills = () => {
 
               <div className="div11 card  rounded-xl bg-base-100 shadow-xl">
                 <div className="avatar">
-                  <div className="w-24 rounded-xl">
+                  <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                     <img
                       src={next}
                       alt="Shoes"
@@ -241,7 +241,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div1 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={react}
                         alt="Shoes"
@@ -258,7 +258,7 @@ const Skills = () => {
 
                 <div className="div2 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={redux}
                         alt="Shoes"
@@ -273,7 +273,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div3 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={Tailwind}
                         alt="Shoes"
@@ -288,7 +288,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div4 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={ts}
                         alt="Shoes"
@@ -303,7 +303,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div5 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={vue}
                         alt="Shoes"
@@ -318,7 +318,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div6 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={sql}
                         alt="Shoes"
@@ -333,7 +333,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div7 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={Axios}
                         alt="Shoes"
@@ -348,7 +348,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div8 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={php}
                         alt="Shoes"
@@ -363,7 +363,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div9 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={github}
                         alt="Shoes"
@@ -379,7 +379,7 @@ const Skills = () => {
 
                 <div className="div10 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={jq}
                         alt="Shoes"
@@ -394,7 +394,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div11 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={mongo}
                         alt="Shoes"
@@ -409,7 +409,7 @@ const Skills = () => {
               <Fade elay={2e3} cascade damping={2e-3} direction="right" triggerOnce>
                 <div className="div12 card  rounded-xl bg-base-100 shadow-xl">
                   <div className="avatar">
-                    <div className="w-24 rounded-xl">
+                    <div className="w-14 sm:w-16 md:w-24 lg:w-24 xl:w-24 rounded-xl">
                       <img
                         src={node}
                         alt="Shoes"

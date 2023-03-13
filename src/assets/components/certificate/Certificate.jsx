@@ -43,7 +43,7 @@ export default function Certificate() {
     ]
     return (
         <>
-            <h1 className='   mx-auto pt-12 text-center text-6xl font-bold'>Certificates</h1>
+            <h1 className='   mx-auto pt-12 text-center text-4xl sm:text-4xl   xs:text-4xl md:text-6xl lg:text-6xl xl:text-6xl font-bold'>Certificates</h1>
             <Swiper
                 effect={"coverflow"}
                 grabCursor={true}

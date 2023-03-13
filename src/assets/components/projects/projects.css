@@ -1,6 +1,7 @@
-.swiper {
+.FilterSlider .swiper {
     width: 95% !important;
     height: 100%;
+    padding: 0 !important;
 }
 
 .FilterSlider .swiper-slide {
@@ -86,4 +87,21 @@ max-height: 450px;
             justify-content: center;
             border-radius: 16px;
                 flex-direction: column;
+}
+@media only screen and (max-width: 400px) {
+.swiper-slide {
+   
+        width: 300px !important;
+        height: 350px !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+.swiper-slide {
+
+        width: 300px !important;
+        height: 350px !important;
+    }
+
 }

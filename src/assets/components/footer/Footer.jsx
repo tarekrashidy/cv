@@ -52,9 +52,16 @@ function Footer() {
             </div>
          
             <div className="flex items-center justify-center w-full">
+                
+            <a href="mailto:tarekahmed1568@gmail.com">
             <button className=" btn  border-0 bg-gradient-to-r from-sky-700 to-sky-500 m-4 mt-9 text-base font-semibold leading-none text-white py-4 px-10 bg-indigo-700 rounded hover:bg-indigo-600 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:outline-none">
-                SUBMIT
+              
+              SUBMIT
+              
+              
               </button>
+            </a>
+
             </div>
           </div>
     </footer>
